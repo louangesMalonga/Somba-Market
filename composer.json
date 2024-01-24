@@ -1,0 +1,23 @@
+{
+  "name": "somba/soumba-market",
+  "description": "E-commerce website",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Soumba Start-up"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Soumba\\Database\\": "App/Database/",
+      "Soumba\\Database\\Models\\": "App/Database/Models/",
+      "Soumba\\Http\\": "App/Http/",
+      "Soumba\\Routes\\": "Routes/",
+      "Soumba\\Views\\": "Views/Pages/"
+    }
+  }
+}
