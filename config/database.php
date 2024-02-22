@@ -1,3 +1,3 @@
 <?php
 
-$access = new PDO("mysql")
+$access = new PDO("mysql");
