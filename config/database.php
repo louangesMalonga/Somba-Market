@@ -11,6 +11,7 @@ try {
         $PASS
     );
     $connect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
+    echo "Connect";
 } catch (Exception $e) {
     echo $e->getMessage() . "in line" . $e->getLine();
 }
