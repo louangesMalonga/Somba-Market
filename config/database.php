@@ -1,6 +1,6 @@
 <?php
 
-$HOST = "localhost";
+$HOST = "localhost:";
 $DB = "soumba";
 $USER = "root";
 $PASS = "";
@@ -13,5 +13,5 @@ try {
     $connect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
     echo "Connect";
 } catch (Exception $e) {
-    echo $e->getMessage() . "in line" . $e->getLine();
+    echo $e->getMessage() . " in line " . $e->getLine();
 }
